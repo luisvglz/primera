@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input [type="text"]:focus{
+    display: flex;
+    justify-content: center;
+    border-color: rgb(31, 92, 197);
+    outline: none;
+    cursor: pointer;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 32px;
+    background: #ba1717;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+button:hover{
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+    display: block;
+    margin: 0 auto;
+}
